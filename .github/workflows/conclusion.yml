@@ -1,0 +1,12 @@
+name: Conclusion
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Heart-Welcome Message
+        run: echo "❤️ Welcome to the project! Have a great day! 😊"
