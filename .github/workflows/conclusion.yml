@@ -9,4 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Heart-Welcome Message
-        run: echo "❤️ Welcome to the project! Have a great day! 😊"
+        run: |
+          echo "👋 Hello, ${{ github.actor }}! 👋"
+          echo "❤️ Welcome to the project! Have a great day! 😊"
