@@ -1,0 +1,14 @@
+name: Conclusion From Another Branch
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - id: welcome-message
+	name: Echo Welcome Message from Another Branch
+        run: |
+          echo "❤️ Welcome to the branch! Have a great day! 😊"
