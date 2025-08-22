@@ -1,1 +1,1 @@
-# gh-pr-merge-conflict-base-branches
+# gh-pr-merge-conflict-another-branch
