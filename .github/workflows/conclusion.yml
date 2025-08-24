@@ -11,4 +11,5 @@ jobs:
       - id: welcome-message
         name: Echo Welcome Message from Another Branch
         run: |
+          echo "I know your name ${{ github.actor }}"
           echo "❤️ Welcome to the branch! Have a great day! 😊"
