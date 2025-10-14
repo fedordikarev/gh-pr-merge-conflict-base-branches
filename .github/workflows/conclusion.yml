@@ -2,7 +2,7 @@ name: Conclusion From Another Branch
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, edited]
 
 jobs:
   greet:
